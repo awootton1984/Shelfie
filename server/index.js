@@ -26,5 +26,3 @@ app.post('/api/product', ctrl.createProduct)
 
 
 app.listen(SERVER_PORT, () => console.log(`2002 Server Ready on port ${SERVER_PORT}`));
-
-export default App;
